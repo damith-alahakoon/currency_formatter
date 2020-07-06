@@ -18,7 +18,7 @@ Step 2. Add the dependency
 	        implementation 'com.github.damith-alahakoon:currency_formatter:v1.0'
 	}
   
-  ===============================================Sample code======================================================
+  =================================Sample code=======================================
   
      EditText editText_number=findViewById (R.id.editText_number);
         
