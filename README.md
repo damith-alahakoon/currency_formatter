@@ -19,3 +19,12 @@ Step 2. Add the dependency
 	}
   
   ===========================================================================
+  Sample code
+  
+     EditText editText_number=findViewById (R.id.editText_number);
+        
+        editText_number.addTextChangedListener(new CurrencyBuilder ()
+                .setDecimalPlace (2) //decimal places Eg:- 100.00
+                .setLocale(Locale.US)//locale default US
+                .setSymbol(false)// currency symbol show if true 
+                .create (editText_number));
